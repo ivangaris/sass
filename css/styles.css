@@ -2,31 +2,23 @@
   margin: 0;
   padding: 0; }
 
-#menunav {
-  justify-content: end;
-  align-items: center; }
+.inicio1 {
+  background-image: url(../imagenes/index.jpg); }
 
-#cuerpo {
-  background-image: linear-gradient(green, brown); }
+.pIndex {
+  display: flex; }
 
-.hInicio {
-  display: grid;
-  grid-template-columns: 20% auto;
-  align-items: center; }
+.inicio2 {
+  background-image: url(../imagenes/equipo1.jpg); }
 
-.mInicio {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  margin: 20px;
-  border: 1px solid black;
-  color: black; }
+.inicio3 {
+  background-image: url(../imagenes/proximas.jpg); }
 
-#inicio {
-  display: flex;
-  height: 1000px;
-  justify-content: center;
-  font-size: 120px; }
+.inicio4 {
+  background-image: url(../imagenes/fotos.jpg); }
+
+.inicio5 {
+  background-image: url(../imagenes/contacto.jpg); }
 
 #formulario {
   display: flex;
@@ -34,17 +26,6 @@
   height: 500px;
   align-items: center;
   justify-content: center; }
-
-.inicio1 {
-  background-image: url(../imagenes/index.jpg); }
-
-.logo {
-  height: 80px;
-  width: 80px;
-  margin: 20px; }
-
-.pIndex {
-  display: flex; }
 
 @media (max-width: 1023px) {
   .inicio1 {
@@ -101,6 +82,37 @@
     width: 500px; }
   .calendario {
     width: 600px; } }
+
+#inicio {
+  display: flex;
+  height: 1000px;
+  justify-content: center;
+  font-size: 120px; }
+
+#menunav {
+  justify-content: end;
+  align-items: center; }
+
+#cuerpo {
+  background-image: linear-gradient(green, brown); }
+
+.hInicio {
+  display: grid;
+  grid-template-columns: 20% auto;
+  align-items: center; }
+
+.mInicio {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px;
+  border: 1px solid black;
+  color: black; }
+
+.logo {
+  height: 80px;
+  width: 80px;
+  margin: 20px; }
 
 .pie {
   color: white;

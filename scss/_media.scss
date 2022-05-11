@@ -1,0 +1,74 @@
+@media (max-width: 1023px) {
+    .inicio1 {
+        background-image: url(../imagenes/index.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio2 {
+        background-image: url(../imagenes/equipo.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio3{
+        background-image: url(../imagenes/proximas.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio4{
+        background-image: url(../imagenes/fotos.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio5 {
+        background-image: url(../imagenes/contacto.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    #inicio {
+        display: flex; 
+        height: 800px;
+        justify-content: center;
+        font-size: 80px;
+    }
+    .pIndex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .video1 {
+        height: 500px;
+        width: 800px;
+    }
+}
+@media (max-width: 736px) {
+    .inicio1 {
+        background-image: url(../imagenes/index.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio2 {
+        background-image: url(../imagenes/equipo.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio3{
+        background-image: url(../imagenes/proximas.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio4{
+        background-image: url(../imagenes/fotos.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio5 {
+        background-image: url(../imagenes/contacto.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    #inicio {
+        display: flex; 
+        height: 500px;
+        justify-content: center;
+        font-size: 50px;
+        text-align: center;
+    }
+    .video1 {
+        height: 300px;
+        width: 500px;
+    } 
+    .calendario {
+        width: 600px
+        
+    } 
+}
