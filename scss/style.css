@@ -149,7 +149,6 @@
 }
 
 #cuerpo {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(green), to(brown));
   background-image: linear-gradient(green, brown);
 }
 

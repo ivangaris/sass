@@ -11,6 +11,9 @@
 .inicio2 {
   background-image: url(../imagenes/equipo1.jpg); }
 
+.pEquipo {
+  display: flex; }
+
 .inicio3 {
   background-image: url(../imagenes/proximas.jpg); }
 
