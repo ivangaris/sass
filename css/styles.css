@@ -8,6 +8,9 @@
 .pIndex {
   display: flex; }
 
+.video1 {
+  width: 900px; }
+
 .inicio2 {
   background-image: url(../imagenes/equipo1.jpg); }
 
@@ -56,7 +59,7 @@
     flex-wrap: wrap; }
   .video1 {
     height: 500px;
-    width: 800px; } }
+    width: 600px; } }
 
 @media (max-width: 736px) {
   .inicio1 {
@@ -82,7 +85,7 @@
     text-align: center; }
   .video1 {
     height: 300px;
-    width: 500px; }
+    width: 400px; }
   .calendario {
     width: 600px; } }
 
